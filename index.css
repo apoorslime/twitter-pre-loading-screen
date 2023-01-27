@@ -1,6 +1,30 @@
-.loading-screen{text-decoration:none;position:fixed;
-      top:0;left:0;width:100%;
-      height:100%;background-color:#1DA1F2;
-      display:flex;
-      justify-content:center;align-items:center;z-index:9999}
-    .twitter-logo{width:115px;height:115px;fill:white}@media (min-width:320px){.twitter-logo{width:110px;height:110px;fill:white}}
+/* Style per la schermata di caricamento */
+    .loading-screen {
+      text-decoration: none; 
+      position: fixed; /* Posiziona la schermata sullo sfondo */
+      top: 0;
+      left: 0;
+      width: 100%; /* Estendi la schermata su tutto lo schermo */
+      height: 100%;
+      background-color: #1DA1F2; /* Colore di sfondo di Twitter */
+      display: flex; /* Allinea gli elementi al centro */
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* Posiziona la schermata sopra gli altri elementi */
+    }
+    
+    /* Style per il logo di Twitter */
+    .twitter-logo {
+      width: 115px;
+      height: 115px;
+      fill: white;
+    }
+    
+@media (min-width:320px)  { 
+   .twitter-logo {
+      width: 110px;
+      height: 110px;
+      fill: white;
+    }
+ }
+ 
