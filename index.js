@@ -1,3 +1,5 @@
+/**  Copyright Apoorslime 2023 Twitter Loading Screen */
+
 window.onload =  function() {
   var element =  document.querySelector('.loading-screen');
   element.onselectstart =  function () {
@@ -16,3 +18,4 @@ document.addEventListener("DOMContentLoaded",  function() {
   },
    10000);
 });
+à
