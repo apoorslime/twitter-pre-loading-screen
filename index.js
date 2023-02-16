@@ -18,4 +18,3 @@ document.addEventListener("DOMContentLoaded",  function() {
   },
    10000);
 });
-à
