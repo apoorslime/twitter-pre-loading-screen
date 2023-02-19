@@ -1,4 +1,8 @@
-/**  Copyright Apoorslime 2023 Twitter Loading Screen */
+/**! 
+
+Copyright 2021-2022 Apoorslime 2023 Twitter Loading Screen  
+
+*/
 
 window.onload =  function() {
   var element =  document.querySelector('.loading-screen');
